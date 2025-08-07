@@ -6,9 +6,9 @@ export default function Hero() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="w-full flex justify-center max-lg:pt-28 items-center bg-blue-50 px-4 py-20 pt-22  text-center">
-        <div className="w-full flex flex-col lg:flex-row items-center justify-between max-w-[1500px] ">
-          <div className="text-left max-w-2xl max-lg:text-center pl-20">
+      <section className="w-full flex justify-center max-lg:pt-18 items-center bg-blue-50 px-4 py-20 pt-22   text-center">
+        <div className="w-full flex flex-col lg:flex-row items-center max-lg:flex-col-reverse max-lg:gap-10 justify-between max-w-[1500px] ">
+          <div className="text-left max-w-2xl max-lg:text-center pl-20 max-lg:pl-0">
             <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
               Gynecomastia Surgery by <br /> Dr. Kunal Sayani Restore Your Masculine Chest with Confidence
             </h1>
@@ -28,7 +28,7 @@ export default function Hero() {
               alt="Hair Transplant"
               width={1000}
               height={1000}
-              className="object-cover rounded-xl w-full h-[29rem]"
+              className="object-cover rounded-xl w-full h-[29rem] max-lg:h-[19rem]"
             />
           </div>
         </div>

@@ -14,7 +14,7 @@ const Knowledge = () => {
 
   return (
     <section className="flex justify-center items-center flex-col">
-      <div className="w-full max-w-[1200px] flex flex-col items-center justify-center py-8">
+      <div className="w-full max-w-[1200px] flex flex-col items-center justify-center py-8 px-4">
         <div className="flex w-full max-lg:flex-col-reverse gap-10 max-w-[1300px] max-lg:justify-center max-lg:items-center">
           <div>
             <div>

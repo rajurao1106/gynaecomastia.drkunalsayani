@@ -90,7 +90,7 @@ export default function FAQSection() {
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
-            src={"/images/services/men/Gynaecomastia.jpeg"}
+            src={"/hero/gynecomastia.jpg"}
             alt="Clinic Image"
             layout="fill"
             objectFit="cover"
