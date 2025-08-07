@@ -187,7 +187,7 @@ export default function About() {
               </div>
             </ul>
 
-            {/* <div className="mt-8">
+            <div className="mt-8">
               <h3 className="text-xl font-semibold text-[#10217D] mb-4">
                 Expertise in Hair Transplant
               </h3>
@@ -218,7 +218,7 @@ export default function About() {
                   </button>
                 ))}
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
