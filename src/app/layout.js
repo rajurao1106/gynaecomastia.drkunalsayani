@@ -17,9 +17,9 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title:
-    "Best Hair Transplant in Mumbai | Dr. Kunal Sayani – FUE & FUT Specialist",
+    "Gynecomastia Surgery in Mumbai | Dr. Kunal Sayani",
   description:
-    "Looking for the best hair transplant in Mumbai? Dr. Kunal Sayani offers advanced FUE & FUT techniques with natural, permanent results.",
+    "Get scarless gynecomastia surgery in Mumbai by Dr. Kunal Sayani. USFDA-approved, same-day discharge & fast recovery. Book your consultation now!",
   verification: {
     google: "TRM5uN2AbAEpuMZ-oECmvatuvFw9rdvoKtm-UK8NCsI",
   },
