@@ -7,124 +7,74 @@ import Image from "next/image";
 
 const faqs = [
   {
-    question: "What is a hair transplant?",
+    question: "What causes gynecomastia?",
     answer:
-      "A hair transplant is a surgical procedure that moves healthy hair follicles from a dense donor area (usually the back or sides of the head) to areas of the scalp experiencing thinning or baldness. The goal is to restore natural hair growth and create a fuller, more youthful appearance.",
+      "Gynecomastia is primarily caused by hormonal imbalances, especially an increase in estrogen or decrease in testosterone. It can also be linked to medications, medical conditions, obesity, or puberty.",
   },
   {
-    question: "Who is a good candidate for a hair transplant?",
+    question: "Is gynecomastia surgery suitable for me?",
     answer:
-      "Ideal candidates are individuals with male or female pattern baldness, sufficient healthy donor hair, and realistic expectations about the results. General good health is also important. Dr. Kunal Sayani will assess your suitability during a detailed consultation.",
+      "If you experience enlarged male breasts causing physical discomfort or emotional distress, and non-surgical treatments have been ineffective, you may be a candidate. A consultation with Dr. Sayani will determine the best course of action.",
   },
   {
-    question: "What are the different types of hair transplant procedures?",
+    question: "Is gynecomastia surgery painful?",
     answer:
-      "The two primary methods are:\n• FUE (Follicular Unit Extraction): Individual follicular units are extracted directly from the donor area, leaving tiny, almost undetectable dot scars.\n• FUT (Follicular Unit Transplantation) / Strip Method: A strip of scalp tissue is removed from the donor area, from which follicular units are dissected. This leaves a linear scar. Dr. Kunal Sayani will recommend the best technique for your specific needs.",
+      "Some discomfort and swelling are normal after surgery but are typically well-controlled with medications. Most patients describe the pain as mild to moderate and manageable.",
   },
   {
-    question: "How long does a hair transplant procedure take?",
+    question: "How long does the surgery take?",
     answer:
-      "The duration varies significantly depending on the number of grafts needed. A smaller procedure might take 4-6 hours, while a larger session could last 8-10 hours, often spread over one or two days.",
+      "The procedure usually lasts 1 to 2 hours, depending on the extent of tissue removal.",
   },
   {
-    question: "Is a hair transplant painful?",
+    question: "Will there be visible scars?",
     answer:
-      "During the procedure, you will receive local anesthesia, so you should not feel any pain. After the procedure, you may experience mild discomfort, soreness, and numbness, which can be managed with prescribed pain medication.",
+      "Incisions are made in discreet locations such as around the areola or chest folds to minimize visible scarring. Scars fade significantly over time with proper care.",
   },
   {
-    question: "Will my transplanted hair look natural?",
+    question: "Is gynecomastia surgery permanent?",
     answer:
-      "Absolutely. Dr. Kunal Sayani's expertise and artistic skill are crucial for natural results. He meticulously designs the hairline and places each graft at the correct angle, direction, and density to mimic natural hair growth, ensuring an undetectable and aesthetically pleasing outcome.",
+      "Yes, the removal of glandular tissue and fat is permanent. However, weight gain or hormonal changes can affect chest appearance later.",
   },
   {
-    question: "How much hair can be transplanted in one session?",
+    question: "Can gynecomastia recur after surgery?",
     answer:
-      "The number of grafts transplanted in one session depends on the patient's donor hair density, the area to be covered, and the chosen technique. Dr. Kunal Sayani will determine the optimal number for your case during the consultation, always prioritizing safety and density.",
+      "While surgery removes existing excess tissue, maintaining a stable weight and avoiding substances that can cause hormonal imbalances helps prevent recurrence.",
   },
   {
-    question: "Will I need more than one hair transplant session?",
+    question: "Can I return to normal activities after surgery?",
     answer:
-      "This depends on the extent of your hair loss, the desired density, and the availability of donor hair. Some patients achieve their goals in one session, while others may opt for a second session years later if more hair loss occurs or if they desire even greater density.",
+      "Most patients return to non-strenuous work within a week and resume light exercise after 2-3 weeks. Full physical activity is usually permitted after 4–6 weeks, pending Dr. Sayani's evaluation.",
   },
   {
-    question: "What is the recovery like after a hair transplant?",
+    question: "Does gynecomastia surgery affect nipple sensation?",
     answer:
-      "You can typically return to light activities within a few days. Swelling and scabbing are common for the first week or two. Most transplanted hairs will shed around 2-4 weeks post-op (shock loss), and new growth usually begins within 3-4 months.",
+      "Temporary changes in nipple sensation are common but usually improve within months. Permanent changes are rare.",
   },
   {
-    question: "How long does it take for the transplanted hair to grow?",
+    question: "Are there non-surgical treatments for gynecomastia?",
     answer:
-      "Initial shedding of transplanted hair occurs around 2-4 weeks. New growth typically begins around 3-4 months. Significant growth and thickening will be noticeable by 6-9 months, with final results becoming fully apparent around 12-18 months.",
+      "Mild cases may respond to medication or lifestyle changes, but surgery is the most effective and permanent solution for moderate to severe gynecomastia.",
+  },
+  
+  {
+    question: "Is the procedure covered by insurance?",
+    answer:
+      "Coverage varies by insurance provider and policy. If gynecomastia causes significant physical symptoms, some insurers may cover the procedure. It's advisable to consult your insurance company for specific information.",
   },
   {
-    question: "Are the results of a hair transplant permanent?",
+    question: "Why choose Dr. Kunal Sayani for gynecomastia surgery?",
     answer:
-      "Yes, the transplanted hair follicles are typically taken from the donor area (back and sides of the head), which are genetically resistant to the hormone that causes balding. Therefore, these transplanted hairs will continue to grow permanently and are not susceptible to future hair loss.",
+      "Dr. Kunal Sayani is a highly experienced aesthetic and plastic surgeon with over 8 years of expertise in gynecomastia treatment. He uses advanced, minimally invasive techniques that ensure effective, safe, and natural-looking results, along with compassionate patient care throughout the treatment journey.",
   },
   {
-    question: "Will there be scars after a hair transplant?",
+    question: "What are common myths about gynecomastia?",
     answer:
-      "Yes, any surgical procedure leaves scars.\n• FUE: Leaves tiny, dot-like scars in the donor area, which are often barely visible, even with very short hair.\n• FUT: Leaves a linear scar in the donor area, which is usually thin and easily concealed by surrounding hair. Dr. Kunal Sayani is skilled at minimizing scar visibility.",
-  },
-  {
-    question: "Can I wear my hair short after an FUE transplant?",
-    answer:
-      "Yes, one of the advantages of FUE is that the donor area heals with tiny, scattered dot scars, allowing you to wear your hair much shorter than with FUT, where a linear scar might be visible.",
-  },
-  {
-    question: "When can I resume normal activities and exercise?",
-    answer:
-      "Light activities can usually be resumed within a few days. Strenuous exercise, heavy lifting, and swimming should be avoided for at least 2-4 weeks, or as advised by Dr. Kunal Sayani, to protect the grafts and aid healing.",
-  },
-  {
-    question: "Myth: Hair transplant results look unnatural, like 'pluggy' hair.",
-    answer:
-      "Fact: This is an outdated myth. Modern hair transplant techniques, especially those utilized by Dr. Kunal Sayani (FUE and refined FUT), focus on transplanting individual follicular units. This, combined with careful artistic placement that mimics natural growth patterns, ensures natural-looking results that are virtually undetectable.",
-  },
-  {
-    question: "Myth: Hair transplants are only for men.",
-    answer:
-      "Fact: While male pattern baldness is a common indication, hair transplants are also a highly effective solution for women experiencing female pattern hair loss, hair loss due to trauma, or thinning around the hairline. Dr. Kunal Sayani customizes procedures for both men and women.",
-  },
-  {
-    question: "Myth: Hair from someone else can be transplanted.",
-    answer:
-      "Fact: No, this is a myth. Hair transplant surgery involves moving your own hair follicles from one part of your body to another. Using hair from another person would result in rejection by your immune system, similar to organ transplantation. Your own hair is used to ensure compatibility and permanent growth.",
-  },
-  {
-    question: "Myth: Hair transplant is a cure for all types of hair loss.",
-    answer:
-      "Fact: Not all types of hair loss are treatable with a transplant. It is most effective for androgenetic alopecia (male/female pattern baldness) where there's a stable donor area. Hair loss due to certain medical conditions, medications, or extensive autoimmune disorders may not be suitable. Dr. Kunal Sayani will conduct a thorough diagnosis to determine if you are a candidate.",
-  },
-  {
-    question: "Myth: Transplanted hair will fall out after a few years.",
-    answer:
-      "Fact: This is false. The transplanted hair follicles retain the characteristics of their original donor area, meaning they are genetically programmed to be resistant to the balding process. Therefore, these hairs will continue to grow naturally and permanently throughout your lifetime.",
-  },
-  {
-    question: "Myth: Hair transplants damage existing hair.",
-    answer:
-      "Fact: When performed by a skilled surgeon like Dr. Kunal Sayani, hair transplants are designed to enhance existing hair, not damage it. While some temporary 'shock loss' of existing hair around the transplanted area can occur (which usually regrows), careful technique minimizes any long-term negative impact.",
-  },
-  {
-    question: "Myth: Hair transplant is an extremely painful procedure.",
-    answer:
-      "Fact: During the procedure, the scalp is fully numbed with local anesthesia, so you will not feel pain. Post-operatively, discomfort is typically mild and managed effectively with over-the-counter or prescribed pain medication. Most patients find the recovery process quite manageable.",
-  },
-  {
-    question: "Myth: Hair transplants yield instant results.",
-    answer:
-      "Fact: Hair transplant results are gradual. After the initial 'shock loss' phase (where transplanted hairs shed), new growth begins around 3-4 months. Significant growth is seen around 6-9 months, and the final, full results typically take 12-18 months to mature. Patience is essential.",
-  },
-  {
-    question: "Myth: Hair transplant is a quick fix for hair loss.",
-    answer:
-      "Fact: While the procedure itself takes several hours, the entire process of hair growth and maturation is a journey. It requires commitment to post-operative care and patience for the final results to appear over many months. Dr. Kunal Sayani emphasizes that it's a long-term investment in your hair.",
-  },
-  {
-    question: "Myth: You can run out of donor hair.",
-    answer:
-      "Fact: The donor area (typically the back and sides of the head) has a finite supply of hair follicles. Dr. Kunal Sayani carefully assesses your donor density and the extent of your baldness to ensure that the harvesting is sustainable and doesn't deplete the donor area, maintaining a natural look. Strategic planning is crucial.",
+      "Myth: Gynecomastia only affects overweight men. \n Fact: It can affect men of all body types due to hormonal imbalances or other causes.\n\n" +
+      "Myth: Gynecomastia will go away on its own without treatment. \n Fact: Some cases resolve, especially in puberty, but many require surgery for permanent correction.\n\n" +
+      "Myth: Gynecomastia surgery is very painful and requires long hospitalization. \n Fact: The surgery is minimally invasive with mild pain and usually done as a day procedure.\n\n" +
+      "Myth: Gynecomastia surgery leaves large, noticeable scars. \n Fact: Scars are minimal and strategically placed to be inconspicuous.\n\n" +
+      "Myth: Exercise alone can cure gynecomastia. \n Fact: Exercise can reduce fat but cannot remove glandular breast tissue causing gynecomastia.",
   },
 ];
 
@@ -135,13 +85,13 @@ export default function FAQSection() {
   };
 
   return (
-    <section id="faq"  className="flex justify-center px-4 md:px-8 my-16">
+    <section className="flex justify-center px-4 md:px-8 my-16">
       <div className="flex flex-col lg:flex-row w-full max-w-[1300px] gap-8">
         {/* Image Section */}
         <div className="relative w-full md:w-[485px] h-[300px] md:h-[461px] rounded-xl overflow-hidden shadow-lg">
           <Image
-            src={"/hero/hair-transplant.png"}
-            alt="Facial treatment"
+            src={"/images/services/men/Gynaecomastia.jpeg"}
+            alt="Clinic Image"
             layout="fill"
             objectFit="cover"
             quality={100}
