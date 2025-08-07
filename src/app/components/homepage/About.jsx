@@ -169,7 +169,7 @@ export default function About() {
                 "Dr. Kunal Sayani is a Board-Certified Plastic & Aesthetic Surgeon based in Andheri, Mumbai.",
                 "Over 8 years of experience in aesthetic and reconstructive surgery.",
                 "Completed MCh and MS from Grant Medical College & Sir J.J. Hospital, Mumbai.",
-                "Specializes in Hair Transplant, Tummy Tuck, Rhinoplasty, and Facial Aesthetic Surgeries.",
+                "Specializes in gynaecomastia, Tummy Tuck, Rhinoplasty, and Facial Aesthetic Surgeries.",
                 "Known for delivering natural results with a patient-focused and safety-first approach.",
               ].map((text, index) => (
                 <li key={index} className="flex items-start gap-2">
@@ -187,7 +187,7 @@ export default function About() {
               </div>
             </ul>
 
-            <div className="mt-8">
+            {/* <div className="mt-8">
               <h3 className="text-xl font-semibold text-[#10217D] mb-4">
                 Expertise in Hair Transplant
               </h3>
@@ -218,7 +218,7 @@ export default function About() {
                   </button>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
